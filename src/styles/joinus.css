@@ -1,0 +1,123 @@
+*{
+    box-sizing: content-box;
+
+}
+
+.header{
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    background-image: url("../imgs/Background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+    margin-top: 10px;
+}
+.header p{
+    font-size: 20px;
+}
+.header a{
+    text-decoration: none;
+    color:rgba(53, 53, 70, 1);
+}
+.header hr{
+    border-top: 2px solid rgba(64, 106, 255, 1);
+    width:100px;
+    opacity: 100%;
+    margin-bottom: 30px;
+}
+#up-cv{
+    display: none;
+}
+.atta{
+    width:20px;
+    height:20px;
+}
+#upload-cv{
+    border: none;
+    border: 1px solid rgba(64, 106, 255, 1);
+    background-color: white;
+    color:rgba(64, 106, 255, 1) ;
+    height:40px;
+    width:250px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:10px 10px 20px 0;
+}
+#upload-cv:hover{
+    cursor: pointer;
+    color:white;
+    background-color:rgba(64, 106, 255, 1) ;
+}
+#upload-cv:hover img{
+    filter: grayscale(100%);
+    filter: brightness(0) invert(1);
+}
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin:10px 10px 20px 0;
+}
+.star{
+    color:red;
+}
+#name,#lastname{
+    border : 1px solid black;
+}
+.left-button{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 20px;
+}
+#addp{
+    display: none;
+}
+#picture-add{
+    background-color: rgba(238, 237, 237, 1);
+    width:100%;
+    height:40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#picture-add:hover{
+    cursor: pointer;
+}
+.camera{
+    height:25px;
+    width:25px;
+    margin-right: 10px;
+}
+.button-submit{
+    border-radius: 15px;
+    color: rgba(64, 106, 255, 1);
+    background-color: white;
+    width:200px;   
+}
+.button-submit:hover{
+    color:white;
+    background-color:rgba(64, 106, 255, 1) ;
+}
+.second-op{
+    width:150px;
+}
+.button-submit:hover {
+    color: white;
+    background-color: rgba(64, 106, 255, 1);
+}
+.right-button{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}

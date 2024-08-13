@@ -1,0 +1,31 @@
+.main-box{
+    width:fit-content;
+    height:50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid gray;
+    background-color: aquamarine;
+}
+.main-box:hover{
+    border-color: white;
+}
+.container-box{
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 0;
+
+}
+.main-box span{
+    height:40px;
+    border-left: 2px solid white;
+
+}
+.sp1{
+    margin-left:-12px;
+    margin-right: 20px;
+    margin-bottom: -5px;
+}
+

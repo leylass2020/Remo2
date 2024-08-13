@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    
+}
+.meet-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+}
+.meet-container h1 a{
+    font-weight: bold;
+    color: rgba(53, 53, 70, 1);
+    text-decoration: none;
+}
+.meet-container hr{
+    border-top: 2px solid rgba(64, 106, 255, 1);
+    width:100px;
+    opacity: 100%;
+}
+.hire-best{
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:fit-content;
+    padding:5px;
+    color:white;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    padding-left:50px;
+    padding-right: 50px;
+    margin-left: 5px;
+}
+
+.hire-best .hire-h1{
+    color:white;
+    text-align: left;
+    font-size: 30px;
+}
+
+.comp-best button{
+    position: relative;
+    width:250px;
+    height:45px;
+    border: none;
+    padding-top:10px;
+    margin-left: 0px;
+    color: white;
+    background: linear-gradient(153.06deg, #19A5FF 16.85%, rgba(64, 106, 255, 0) 118.63%);
+    border-radius: 5px;
+}
+.comp-best{
+    align-items: center;
+    
+}
+.comp-best img{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 50px;
+    height:150px;
+    width:150px;
+}
+.see-other{
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+
+@media screen and (width < 1000px){
+    .hire-best{
+        padding: 20px;
+        width: fit-content;
+        padding-right: 20px;
+        margin-right: 10px;
+    }
+    .hire-best h1{
+        font-size: 40px; 
+        margin-left: 90px;
+    }
+    .hire-best .comp-best{
+        margin-top: 40px;
+        margin-bottom: 40px;
+       
+    }
+    .best-emp{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .comp-best *{
+        margin-left: -200px;
+        margin-bottom:50px;
+        
+    }
+}
+@media screen and (width < 770px){
+    .comp-best {
+        margin-right: 80px;
+        margin-bottom:50px;    
+    }
+    .hire-best .hire-h1{
+        font-size: 30px;
+        margin-left:10px; 
+    }
+}
+
+@media screen and (width < 500px){
+    
+    
+}
+
+

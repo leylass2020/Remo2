@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+.content-home{
+    padding:0;
+    margin-top: 10px;
+}
+.content-home .row{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.content-home .col{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.content-home .txt{
+    align-items: left;
+    width:30rem;
+}
+.content-home .row p{
+    text-align: left;
+    padding: 30px 0;
+    font-size: 18px;
+}
+.content-home .col h1{
+    text-align: left;
+    color: rgba(53, 53, 70, 1);
+    font-size: 55px;
+    
+}
+.price{
+    height:200px;
+    width:300px;
+}
+.content-home .col img{
+    float: left;
+}
+.content-home .bold{
+    font-weight: bold;
+}
+.content-home .gra1{
+    background: -webkit-linear-gradient(rgba(25, 165, 255, 1), rgba(13, 28, 159, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-home .gra2{
+    background: -webkit-linear-gradient(rgba(25, 165, 255, 1), rgba(64, 106, 255, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-home .home-footer{
+    background: linear-gradient(-30deg,rgba(101, 135, 255, 0.3),rgba(255, 255, 255, 0.3));
+    margin-left: -100px;
+    margin-right: -55px;
+}
+
+.content-home .home-footer .row .col h1 ,.content-home .home-footer .row .col p {
+    text-align: center;
+}
+.content-home .home-footer .row .col h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.content-home .logos{
+    display: flexbox;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

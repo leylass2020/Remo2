@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+.contact-container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+   
+    flex-direction: column;
+}
+.head h3{
+    color: red;
+    font-weight: bold;
+}
+.contact-container .head-title{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contact-container hr{
+    border-top: 2px solid rgba(64, 106, 255, 1);
+    width:100px;
+    opacity: 100%;
+}
+
+.contact-container h1 a{
+    text-decoration: none;
+    color: rgba(53, 53, 70, 1);  
+}
+.field-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border-radius: 35px; 
+    margin-bottom:20px;
+    margin-left:15px;
+    padding: 20px 5px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.13);
+}
+.field-contact .field-right , .contact-info{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: left; 
+}
+.field-contact .field-left .contact-info{
+    align-items: flex-start;
+}
+.field-contact .field-right{
+    background-image: url('../imgs/Background-wave.svg');
+    background-repeat: no-repeat;
+    background-image: cover;
+    padding-left: 100px;
+    padding-right: 30px;
+    padding-top: 10px;
+    background-size: cover;
+    color: white;
+    border-radius: 30px;
+    width:600px;
+    height:600px;
+    margin-right: -70px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+.field-right ul{
+    list-style: none;
+    margin:30px 10px 30px 10px;
+}
+.field-left input{
+    height: 50px;
+}
+.field-left input , .field-left textarea{
+    width:400px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(245, 245, 250, 1);
+    margin: 2px 10px 10px 2px;
+    margin-left:-5px;
+    box-shadow: inset 5px 5px 10px 0 rgba(170, 170, 204, 0.5);
+}
+.field-left button{
+    background-color: rgba(64, 106, 255, 1);
+    border: none;
+    border-radius: 30px;
+    margin: 20px 10px 40px 0;
+    height:50px;
+    width:200px;
+    color: white;
+}
+.field-left label{
+    margin:2px 0 5px 0;
+}
+.small-icon{
+    width:20px;
+    height:20px;
+}
+.contact-icon img{
+    height:30px;
+    width:30px;
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (width < 550px) {
+    .field-right{
+        width: 400px;
+    }
+}
+
+@media screen and (width < 470px){
+    .field-left input , .field-left textarea{
+        width:300px;
+    }
+    
+}

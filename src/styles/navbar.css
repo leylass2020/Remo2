@@ -1,0 +1,101 @@
+.content-nav *{
+    box-sizing: border-box;
+}
+
+.content-nav{
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
+    margin: 0;
+    
+}
+.content-nav .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-nav .logo{
+    width:170px;
+    height:100px;
+    padding-bottom: 10px;
+    margin-left: -20px;
+}
+.content-nav .nav ul{
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    list-style-type: none;
+}
+.content-nav .nav li a{
+    color: rgba(53, 53, 70, 1);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content-nav .active {
+    background: -webkit-linear-gradient(rgba(25, 165, 255, 1), rgba(13, 28, 159, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-nav .nav-link:hover{
+    background: -webkit-linear-gradient(rgba(25, 165, 255, 1), rgba(13, 28, 159, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-nav .nav button{
+    background-color: rgba(13, 139, 255, 1);
+    border:none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.content-nav .chat{
+    padding: 2px;
+}
+
+
+@media screen and (width < 1000px){
+    .content-nav .nav li a{
+        font-size: 16px;
+        font-weight: 400px;
+    }
+    .content-nav .logo{
+        width:150px;
+        height:80px;
+    }
+    .content-nav .nav button{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .content-nav .nav li a {
+        margin:2px;
+        padding: 0;
+        margin-left: 15px;
+    }
+     
+}
+@media screen and (width < 720px){
+    .content-nav .nav button{
+        margin-top: 20px;
+    }
+    .content-nav .nav button span{
+        display: none;
+    }
+    .content-nav .logo{
+        width:15vw;
+    }
+    .content-nav .nav li nav-link {
+        margin:2px;
+        padding: 0;
+        font-size: 14px;
+    }
+}
+@media   screen and (width < 520px) {
+    .content-nav .logo{
+        width:22vw;
+    }
+}

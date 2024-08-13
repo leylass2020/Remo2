@@ -1,0 +1,8 @@
+*{
+    font-family: Inter ,'Arial' ,'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    scroll-snap-type: none;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    background-color: rgb(252, 185, 0);
+    background-color: rgb(171, 184, 195);
+}
